@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Placeholder",
+    "date": "2027-03-14",
+    "endDate": "2027-03-16",
+    "location": "Vancouver, BC",
+    "description": "placeholder placeholder placeholder.",
+    "url": "https://www.eventbrite.ca/",
+    "image": ""
+  },
+  {
+    "title": "Past Placeholder",
+    "date": "2025-01-24",
+    "endDate": "2025-01-26",
+    "location": "Vancouver, BC",
+    "description": "Past placeholder test.",
+    "url": "",
+    "image": ""
+  }
+]

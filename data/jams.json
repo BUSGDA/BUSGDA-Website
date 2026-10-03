@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Global Game Jam Vancouver",
+    "url": "https://globalgamejam.org/",
+    "logo": "global-gamejam-yvr-logo.png",
+    "blurb": "Our flagship weekend jam, part of the worldwide Global Game Jam."
+  },
+  {
+    "name": "BC Game Jam",
+    "url": "https://bcgamejam.com/",
+    "logo": "bc-gamejam-logo.png",
+    "blurb": "A BC-wide jam that ran for several years before going on hiatus."
+  }
+]

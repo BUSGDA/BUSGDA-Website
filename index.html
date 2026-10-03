@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BUSGDA - BC United Students and Game Developers Association</title>
+  <meta name="description" content="BUSGDA runs BC's largest game jam and hosts community events for game makers across the province.">
+
+  <link rel="icon" type="image/svg+xml" href="assets/logos/svgs/Logo-IconOnly-WhiteOnPurple-RoundedSquare.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="css/styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700;900&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <img src="assets/logos/svgs/Logo-IconOnly-WhiteOnPurple-RoundedSquare.svg" alt="" class="brand-mark">
+        <span class="brand-name">BUSGDA</span>
+      </a>
+        <nav class="site-nav" id="site-nav" aria-label="Main">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="events.html">Events</a>
+        <a href="jams.html">Jams</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <a href="contact.html#join" class="btn btn-primary nav-cta">Join Us</a>
+            <button class="nav-toggle" type="button" aria-label="Toggle menu" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="hero" id="top">
+    <div class="hero-pattern" aria-hidden="true"></div>
+    <div class="container hero-inner">
+      <h1 class="hero-logo-wrap">
+        <img src="assets/logos/svgs/Logo-IconAndText-WhiteOnTransparent.svg"
+             alt="BUS Game Devs"
+             class="hero-logo">
+      </h1>
+      <p class="hero-sub">
+        We run BC's largest game jam as well as events for local game developers.
+      </p>
+      <div class="hero-actions">
+        <a href="events.html" class="btn btn-primary">See upcoming events</a>
+        <a href="contact.html#join" class="btn btn-outline">Get involved</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container narrow">
+      <h2 class="section-title">About Us</h2>
+      <p>
+        BUS Game Devs (BUSGDA) is a not-for-profit organization that brings
+        the local Vancouver game development community together with a
+        variety of events each year. Originally founded by students from UBC,
+        SFU, and BCIT, BUS has run the two largest community game jams
+        in the province since 2019. 
+      </p>
+      <p>
+        Our events are opportunities to gather over a shared passion
+         for game development and a desire to grow, learn and 
+         improve together! We throw Global Game Jam Vancouver, The Vancouver Game Dev Series,
+         Game Book Clubs and all sorts of Game Dev focused events!
+      </p>
+      <p>
+        Since its start in April 2023, Vancouver Game Dev Series (VGDS) has brought 
+        fantastic speakers,industry veterans and hobbyists to learn and share
+        from their experience. It has expanded to host guests from other 
+        parts of Canada and the US.
+    </p>    </div>
+  </section>
+
+  <section class="section section-alt" id="events">
+    <div class="container">
+      <h2 class="section-title">Next Up</h2>
+      <div id="next-events" class="event-grid">
+        <p class="empty-state">Loading events…</p>
+      </div>
+      <p class="section-more"><a href="events.html" class="jam-link">See all events →</a></p>
+    </div>
+  </section>
+
+  <section class="section" id="sponsors">
+    <div class="container">
+      <h2 class="section-title">Sponsors</h2>
+      <p class="section-lead">
+        These folks help make our events possible. If you'd like your logo
+        here, get in touch.
+      </p>
+      <div id="sponsors-grid" class="sponsor-grid">
+        <p class="empty-state">Loading sponsors…</p>
+      </div>
+    </div>
+  </section>
+    
+  
+  <div class="footer-mountains" aria-hidden="true"></div>
+  <footer class="site-footer" id="contact">
+    <div class="container footer-inner">
+      <div class="footer-col">
+        <h3>BUSGDA</h3>
+        <p>BC United Students and Game Developers Association</p>
+        <p class="footer-note">Non-profit · Vancouver, BC</p>
+      </div>
+      <div class="footer-col">
+        <h3>Follow us</h3>
+        <ul class="social-list">
+          <li><a href="https://www.instagram.com/busgamedevs/" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://www.facebook.com/busgamedevs/" target="_blank" rel="noopener">Facebook</a></li>
+          <li><a href="https://twitter.com/BUSGameDevs" target="_blank" rel="noopener">Twitter</a></li>
+        </ul>
+        <p class="footer-note"><a href="mailto:info@busgda.ca">info@busgda.ca</a></p>
+          </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> BUSGDA</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

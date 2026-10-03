@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jams - BUSGDA</title>
+  <meta name="description" content="The game jams BUSGDA runs and supports across BC.">
+
+  <link rel="icon" type="image/svg+xml" href="assets/logos/svgs/Logo-IconOnly-WhiteOnPurple-RoundedSquare.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="css/styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700;900&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <img src="assets/logos/svgs/Logo-IconOnly-WhiteOnPurple-RoundedSquare.svg" alt="" class="brand-mark">
+        <span class="brand-name">BUSGDA</span>
+      </a>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="jams.html" aria-current="page">Jams</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <a href="contact.html#join" class="btn btn-primary nav-cta">Join Us</a>
+        <button class="nav-toggle" type="button" aria-label="Toggle menu" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <header class="page-header">
+    <div class="page-header-pattern" aria-hidden="true"></div>
+    <div class="container">
+      <h1 class="page-title">Our Jams</h1>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <p class="section-lead">
+        A Game Jam is an event where Jammers are invited to collaborate in teams
+        to make a game project in limited time. During the event, attendees will
+        connect with others, explore unique ideas and improve their game development skills.
+
+        Regardless if you're new to game development or a long time veteran,
+        our jams welcome everyone.
+      </p>
+      <div id="jams-grid" class="jam-grid">
+        <p class="empty-state">Loading jams…</p>
+      </div>
+    </div>
+  </section>
+
+
+
+  <div class="footer-mountains" aria-hidden="true"></div>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-col">
+        <h3>BUSGDA</h3>
+        <p>BC United Students and Game Developers Association</p>
+        <p class="footer-note">Non-profit · Vancouver, BC</p>
+      </div>
+      <div class="footer-col">
+        <h3>Follow us</h3>
+        <ul class="social-list">
+          <li><a href="https://www.instagram.com/busgamedevs/" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://www.facebook.com/busgamedevs/" target="_blank" rel="noopener">Facebook</a></li>
+          <li><a href="https://twitter.com/BUSGameDevs" target="_blank" rel="noopener">Twitter</a></li>
+        </ul>
+        <p class="footer-note"><a href="mailto:info@busgda.ca">info@busgda.ca</a></p>
+          </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> BUSGDA</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
