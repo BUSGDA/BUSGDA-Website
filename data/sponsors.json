@@ -1,5 +1,32 @@
 [
-  { "name": "Sponsor 1", "file": "", "url": "", "alt": "Sponsor logo" },
-  { "name": "Sponsor 2", "file": "", "url": "", "alt": "Sponsor logo" },
-  { "name": "Sponsor 3", "file": "", "url": "", "alt": "Sponsor logo" }
+  {
+    "name": "Black Bird Interactive",
+    "file": "BBILogo.webp",
+    "url": "https://www.blackbirdinteractive.com/",
+    "alt": "BBILogo"
+  },
+  {
+    "name": "Coldblood",
+    "file": "coldbloodlogo.png",
+    "url": "https://coldbloodinc.studio/",
+    "alt": "ColdBlood logo"
+  },
+  {
+    "name": "Power Up Audio",
+    "file": "powerup.png",
+    "url": "https://powerupaudio.com/",
+    "alt": "Power Up Audio Logo"
+  },
+  {
+    "name": "Sunset Visitor",
+    "file": "sunsetvisitor.png",
+    "url": "https://www.sunsetvisitor.studio/",
+    "alt": "Power Up Audio Logo"
+  },
+  {
+    "name": "James Pede",
+    "file": "JamesPede.png",
+    "url": "https://www.linkedin.com/in/james-pede-7b1aba83/",
+    "alt": "Power Up Audio Logo"
+  }
 ]

@@ -44,17 +44,26 @@ function buildEventCard(ev, { past = false } = {}) {
   card.className = 'event-card' + (past ? ' event-card-past' : '');
 
   const image = ev.image
-    ? `<img class="event-image" src="assets/events/${ev.image}" alt="${ev.title}">`
+    ? `<img class="event-image" src="assets/eventPhotos/${ev.image}" alt="${ev.title}">`
     : `<div class="placeholder-img">Event photo</div>`;
 
   const action = ev.url
     ? `<a class="btn btn-small btn-primary" href="${ev.url}" target="_blank" rel="noopener">${past ? 'Event page' : 'Register'}</a>`
     : `<span class="link-placeholder">Registration link TBD</span>`;
 
+  var date;
+
+  if(ev.date == ev.endDate){
+    date = formatDate(ev.date)
+  }
+  else{
+    date = formatDate(ev.date, ev.endDate)
+  }
+
   card.innerHTML = `
     ${image}
     <div class="event-body">
-      <p class="event-date">${formatDate(ev.date, ev.endDate)}</p>
+      <p class="event-date">${date}</p>
       <h3 class="event-title">${ev.title}</h3>
       ${ev.location ? `<p class="event-location">${ev.location}</p>` : ''}
       ${ev.description ? `<p class="event-desc">${ev.description}</p>` : ''}

@@ -1,20 +1,38 @@
 [
   {
-    "title": "Placeholder",
-    "date": "2027-03-14",
-    "endDate": "2027-03-16",
+    "title": "VGDS October 2026",
+    "date": "2026-10-16",
+    "endDate": "2026-10-16",
     "location": "Vancouver, BC",
-    "description": "placeholder placeholder placeholder.",
-    "url": "https://www.eventbrite.ca/",
-    "image": ""
+    "description": "Join us for another awesome VGDS with hit indie devs, Dune Casu from Over the Hill and Justin Smith of Horsey Game!",
+    "url": "https://www.eventbrite.ca/e/2002110845434?aff=oddtdtcreator",
+    "image": "VGDS/oct16th.png"
   },
   {
-    "title": "Past Placeholder",
-    "date": "2025-01-24",
-    "endDate": "2025-01-26",
+    "title": "Indie Game Dev Summit - Toronto",
+    "date": "2026-10-24",
+    "endDate": "2026-10-24",
     "location": "Vancouver, BC",
-    "description": "Past placeholder test.",
-    "url": "",
-    "image": ""
+    "description": "Learn from the developers of many hit indie games! After running these events for 3 years in Vancouver, this is our first event in Toronto.",
+    "url": "https://www.eventbrite.ca/e/2001039049664?aff=oddtdtcreator",
+    "image": "VGDS/oct24th.png"
+  },
+  {
+    "title": "BUSPAC - October, Dredge",
+    "date": "2026-10-30",
+    "endDate": "2026-10-30",
+    "location": "Vancouver, BC",
+    "description": "Our game dev book club event! We pick a game to play every month then meet up and talk about it!.",
+    "url": "https://www.eventbrite.ca/e/2002780537501?aff=oddtdtcreator",
+    "image": "BUSPAC/oct30th.png"
+  },
+  {
+    "title": "BUSPAC - September, Spiritfarer",
+    "date": "2026-09-27",
+    "endDate": "2026-09-27",
+    "location": "Vancouver, BC",
+    "description": "Our game dev book club event! We pick a game to play every month then meet up and talk about it!.",
+    "url": "https://www.eventbrite.ca/e/1999408518702?aff=oddtdtcreator",
+    "image": "BUSPAC/sept27th.png"
   }
 ]
