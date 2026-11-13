@@ -1,0 +1,17 @@
+# BUSGDA (BC United Students and Game Developers Association)
+
+> BUSGDA is a non-profit volunteer-run organization that brings the Vancouver and BC game development community together through game jams, meetups, and events.
+
+## About
+- [About Us](https://busgda.ca/contact.html): Mission, history, and community focus.
+- [Contact & Join](https://busgda.ca/contact.html#contact): How to reach the team or join the Discord.
+
+## Events
+- [Upcoming Events](https://busgda.ca/events.html): List of upcoming game jams and meetups.
+- [Eventbrite Page](https://www.eventbrite.ca/o/31797772145): Official ticketing and registration.
+
+## Jams
+- [Our Jams](https://busgda.ca/jams.html): Information on Global Game Jam Vancouver and BC Game Jam.
+
+## Sponsors
+- [Sponsors](https://busgda.ca/index.html#sponsors): Current sponsors and partnership contact (partnerships@busgda.ca).
