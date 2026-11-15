@@ -91,6 +91,14 @@ a {
   background-position: calc(50% + 900px) calc(10% - 200px);
 }
 
+.contact-about-us {
+  background-image: url("../assets/marketingPhotos/JamPhoto1.png");
+  background-size: auto;
+
+  background-repeat: no-repeat;
+  background-position: calc(50% + 900px) calc(10% - 200px);
+}
+
 .landing-next-up {
   background-image: url("../assets/marketingPhotos/BCGameJamPhoto1.png");
   background-size: auto;
@@ -100,6 +108,19 @@ a {
 }
 
 .landing-next-up-content {
+  padding-left: 400px
+}
+
+.contact-join-us {
+
+  background-image: url("../assets/marketingPhotos/JamPhoto2.png");
+  background-size: auto;
+
+  background-position: calc(50% - 800px) calc(50%);
+  background-repeat: no-repeat;
+}
+
+.join-us-content {
   padding-left: 400px
 }
 
