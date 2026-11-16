@@ -108,7 +108,7 @@ a {
 }
 
 .landing-next-up-content {
-  padding-left: 400px
+  padding-left: clamp(0px, 30vw, 400px);
 }
 
 .contact-join-us {
@@ -121,7 +121,7 @@ a {
 }
 
 .join-us-content {
-  padding-left: 400px
+  padding-left: clamp(0px, 30vw, 400px);
 }
 
 .hstack {
